@@ -1,0 +1,10 @@
+#test{
+    width: 100%;
+    height: calc(100vh - 165px);
+    /* padding-top: 80px; */
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    padding-top: 5%;
+}

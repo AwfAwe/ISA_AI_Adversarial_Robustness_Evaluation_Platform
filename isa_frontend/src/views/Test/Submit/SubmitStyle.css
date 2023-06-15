@@ -1,0 +1,84 @@
+#submit{
+    width: 45%;
+    height: 80%;
+    background-color: #373bd7;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#submit .button1,
+#submit .button2{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#submit .button1 .span1,
+#submit .button2 .span2,
+#submit .button2 .span3{
+    position: relative;
+    cursor: pointer;
+    color: #373bd7;
+    font-size: 40px;
+    font-weight: 500;
+}
+#submit .button1 .span1:hover::before{
+    content: "在这里提交model文件";
+    width: 200px;
+}
+#submit .button2 .span2:hover::before{
+    content: "在这里提交model文件";
+    width: 200px;
+}
+#submit .button2 .span3:hover::before{
+    content: "在这里提交测试图片";
+    width: 180px;
+}
+#submit .button3 span:hover::before{
+    content: "开始运行";
+    width: 120px;
+}
+#submit .button1 .span1:hover::before,
+#submit .button2 .span2:hover::before,
+#submit .button2 .span3:hover::before,
+#submit .button3 span:hover::before{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 300;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+
+#submit .button1:hover,
+#submit .button2:hover,
+#submit .button3:hover{
+    transform: scale(1.05);
+}
+#submit .button1,
+#submit .button2{
+    margin-bottom: 15%;
+}
+#submit .button3{
+    width: 40%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    align-items: center;
+}
+#submit .button3 span{
+    position: relative;
+    cursor: pointer;
+    color: #373bd7;
+    font-size: 40px;
+    font-weight: 500;
+}

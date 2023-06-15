@@ -1,0 +1,102 @@
+#homepart1{
+    width: 100%;
+    /* height: 100vh; */
+    height:calc(100vh - 100px);
+    /* margin-top: 20px; */
+    padding-top: 100px;
+    display: flex;
+    /* position: relative; */
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    background-color: #373bd7;
+    /* z-index: 0; */
+    border-radius: 0 0 100px 100px;
+}
+#homepart1 .left{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+}
+#homepart1 .left .text1{
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: left;
+}
+#homepart1 .left .text2{
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: left;
+}
+#homepart1 .left .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 35px;
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+#homepart1 .left .button a{
+    /* transform: translateX(100px); */
+    text-decoration: none;
+    color: #373bd7;
+    text-align: center;
+}
+#homepart1 .right{
+    /* position: relative; */
+    width: 45%;
+    height: 80%;
+    background-image: url("../../../assets/Home/grid.png");
+    opacity: 0.1;
+    background-repeat: no-repeat;
+    background-size: 70% 80%;
+    background-position: center;
+}
+#homepart1 .leftpic{
+    /* margin-top: 10%; */
+    position: absolute;
+    right:35%;
+    top:35%;
+    width: 13%;
+    height: 60%;
+    background-color: #fba117;
+    z-index: 1;
+    border-radius:0 0 0 20px ;
+}
+#homepart1 .rightpic{
+    /* margin-left: 200px; */
+    position: absolute;
+    right: 10%;
+    top:15%;
+    width: 13%;
+    height: 60%;
+    background-color: #82e5f2;
+    z-index: 1;
+    border-radius:0 20px 0 0;
+}
+#homepart1 .leftcircle{
+    position: absolute;
+    right: 31%;
+    top:27%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 10px solid #82e5f2 ;
+    z-index: 2;
+}
+#homepart1 .rightcircle{
+    position: absolute;
+    right: 19%;
+    top:63%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 10px solid #fba117 ;
+    z-index: 2;
+}

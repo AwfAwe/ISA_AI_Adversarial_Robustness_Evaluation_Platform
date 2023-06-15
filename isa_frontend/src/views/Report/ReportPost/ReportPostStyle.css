@@ -1,0 +1,32 @@
+#reportpost{
+    width: 800px;
+    height: 100vh;
+    text-align: center;
+    /* margin-right: 100px; */
+}
+#reportpost .text1{
+    text-align: left;
+    margin-top: 40px;
+}
+#reportpost .conclusion{
+    height: 20px;
+    /* margin-top: 30px; */
+    text-align: left;
+    /* margin-bottom: 200px; */
+    /* font-size: 20px; */
+}
+#reportpost .conclusion span{
+    margin-bottom: 20px;
+    /* transform: translateY(-20px); */
+}
+#reportpost .none{
+    height: 200px;
+}
+#reportpost .img1,
+#reportpost .img2,
+#reportpost .img3,
+#reportpost .img4{
+    /* width: 350px; */
+    height: 250px;
+    text-align: center;
+}
